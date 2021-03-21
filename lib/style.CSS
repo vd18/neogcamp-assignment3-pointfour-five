@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Shippori+Mincho+B1&display=swap');
+
+:root{
+    --primary-color:#5bd9c7;
+    --dark-grey:#6B7280;
+    --off-white:#F0F0F0;
+    --span:#5bd9c7;
+}
+
+
+body{
+    font-family: 'Akaya Telivigala', cursive;
+font-family: 'Shippori Mincho B1', serif;
+}
+
+/** container **/
+.container{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.container-center{
+
+    max-width: 600px;
+    margin: auto;
+}
+
+/** link **/
+
+.link{
+   
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+   
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color:white;
+    
+}
+
+.primary-link2{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+    
+}
+
+
+.second{
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/**list**/
+
+.non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0;
+   
+    padding: 0.5rem;
+
+    }
+.list-inline > li{
+    display: inline-block;
+    padding: 1rem;
+    }
+
+
+/**navigation**/
+
+.navigation{
+    background-color: var(--primary-color) ;
+     padding: 0.5rem;
+     color: white;
+     border-bottom-left-radius: 1rem;
+     
+}
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.4rem;
+    
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+.link-active{
+    font-weight: bold;
+}
+
+.link2{
+   text-align: right;
+   color: white;
+   text-decoration: none;
+   
+   
+}
+
+/**header**/
+
+.bookh{
+   padding-bottom: 1rem;
+   margin-top: 1.5rem ;
+   
+}
+.bookh .book-img{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.bookh .book-heading{
+    font-size: x-large;
+    text-align: center;
+    /* max-width: 350px;
+    margin: auto;
+    display: block;
+    padding-top: 2rem;
+    */
+}
+.spanc{
+    color: #5bd9c7
+}
+
+
+/**section**/
+.section{
+padding: 1.5rem;
+
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.off-white{
+    background-color: var(--off-white) ;
+}
+
+/**footer**/
+
+.footer{
+    background-color: var(--primary-color);
+    padding-top: 2rem;
+    margin-top: 0.1rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+  
+  
+}
+
+.footer .link{
+    color:black;
+
+
+
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+
+}
+
+
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+
+.footer-header2{
+    font-weight: bold;
+    font-size: large;
+    color: var(--primary-color)
+}
+

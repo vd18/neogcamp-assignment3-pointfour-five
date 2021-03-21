@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root{
+
+    --background-color:#5bd9c7;
+    --background-color-div:white;
+}
+
+
+
+body{
+    background-color:var(--background-color);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.div-border{
+    max-width: 750px;
+    display: block;
+    margin: auto;
+    background-color: var(--background-color-div);
+   
+}
+
+.header-h1{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+
+}
+
+small{
+    padding: 1rem;
+}
+
+.book-img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.peragraph{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.h3p{
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0rem;
+}
+
+.pera-foot{
+    font-weight: bold;
+    padding-bottom: 5rem;
+}
+
+.foot{
+    padding-bottom: 3rem;
+
+}
+
+.telegram{
+
+    color:rgb(244, 247, 250) ;
+}
