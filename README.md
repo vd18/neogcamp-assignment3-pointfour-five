@@ -1,2 +1,3 @@
 # neogcamp-assignment3-pointfour-five
- neogcamp assignment3 solution 
+
+i have created my portfolio and i also have created blogs
