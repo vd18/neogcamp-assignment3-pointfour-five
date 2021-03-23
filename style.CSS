@@ -11,6 +11,7 @@
 body{
     font-family: 'Akaya Telivigala', cursive;
 font-family: 'Shippori Mincho B1', serif;
+margin: 0.1rem;
 }
 
 /** container **/
@@ -93,6 +94,7 @@ hr{
 .nav-brand{
     font-weight: bold;
     font-size: 1.4rem;
+    color: black;
     
 }
 
@@ -194,3 +196,13 @@ padding: 1.5rem;
     color: var(--primary-color)
 }
 
+ul{
+    padding-inline-start: 0px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.imgclass{
+    height: 50px;
+    margin: 0rem;
+}

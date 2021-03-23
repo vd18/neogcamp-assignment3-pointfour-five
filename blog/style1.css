@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Shippori+Mincho+B1&display=swap');
 
 :root{
 
@@ -9,8 +9,11 @@
 
 
 body{
+    
     background-color:var(--background-color);
-    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'PT Sans', sans-serif; */
+    
+    font-family: 'Shippori Mincho B1', serif;
 }
 
 .div-border{
@@ -18,7 +21,9 @@ body{
     display: block;
     margin: auto;
     background-color: var(--background-color-div);
-   
+    border-style: solid;
+    border-width: 0.1rem;
+    
 }
 
 .header-h1{
@@ -34,10 +39,12 @@ small{
 }
 
 .book-img{
-    max-width: 400px;
-    display: block;
-    margin: auto;
+    width: 60%;
+  height: auto;
+display: block;
+margin: auto;
 }
+
 
 .peragraph{
     padding-right: 1rem;
